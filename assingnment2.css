@@ -1,6 +1,6 @@
 
 *{
-    font-family: Work Sans;
+    font-family: 'Work Sans';
     margin: 0;
     padding: 0;
 }
@@ -136,7 +136,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color:#727272; ;
+    color:#727272; 
     width: 500px;
 }
 
@@ -200,9 +200,11 @@
     line-height: 25px;
     border-width: 5px;
     padding-left: 15px;
+    color:#727272; 
 }
 .three-1 h3{
     margin-bottom: 15px;
+    color: #131313;
 }
 
 .three-2{
@@ -212,7 +214,7 @@
     line-height: 25px;
     padding-left: 15px;
     padding-top: 15px;
-
+    color:#727272; 
     width: 586px;
     height: 160px;
     left: 273px;
@@ -225,6 +227,7 @@
 }
 .three-2 h3{
     margin-bottom: 15px;
+    color: #131313;
 }
 
 .three-3{
@@ -234,8 +237,8 @@
     line-height: 25px;
     padding-left: 15px;
     padding-top: 15px;
-
-    width: 586px;
+    color:#727272; 
+    width: 550px;
     height: 160px;
     left: 273px;
     top: 2731px;
@@ -247,6 +250,7 @@
 }
 .three-3 h3{
     margin-bottom: 15px;
+    color: #131313;
 }
 
 .three-4{
@@ -256,8 +260,8 @@
     line-height: 25px;
     padding-left: 15px;
     padding-top: 15px;
-
-    width: 586px;
+    color:#727272; 
+    width: 550px;
     height: 160px;
     left: 273px;
     top: 2731px;
@@ -269,6 +273,7 @@
 }
 .three-4 h3{
     margin-bottom: 15px;
+    color: #131313;
 }
 
 .section-three-box2{
@@ -318,7 +323,7 @@
     display: flex;
     margin-left: 290px;
     margin-right: 290px;
-    margin-top: 100px;
+    margin-top: 150px;
 
 }
 
@@ -333,6 +338,7 @@
     font-size: 18px;
     margin-left: 240px;
     width: 400px;
+    
    
 }
 .awards {
@@ -508,6 +514,38 @@
     margin-top: 50px;
 }
 
+.awards, .projects, .customers, .email{
+    transition: width 1s, height 1s, transform 1s;
+   
+}
+
+.awards:hover{
+    width: 241px;
+    height: 241px;
+    transform: rotate(360deg);
+    
+}
+.customers:hover{
+    width: 241px;
+    height: 241px;
+    transform: rotate(360deg);
+    
+}
+
+.projects:hover{
+    width: 241px;
+    height: 241px;
+    transform: rotate(360deg);
+    
+}
+
+.email:hover{
+    width: 241px;
+    height: 241px;
+    transform: rotate(360deg);
+    
+}
+
 .sponsors img{
     width: 166px;
     height: 50px;
@@ -516,6 +554,32 @@
 filter: grayscale(100%);
     
 
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.login-form{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        
+}
+
+.login-form input{
+    margin-top: 20px;
+    font-size: 1.5em;
+    padding: 5px 10px;
+}
+.login-form input[type="submit"]{
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
 }
 
 .footer{
@@ -540,12 +604,3 @@ filter: grayscale(100%);
 
 }
 
-/* Media Queries */
-/* movile devices */
-
-@media (min-width:320px) and (max-width:688px){
-    .logo{
-      flex-direction: column;
-    }
-
-}
